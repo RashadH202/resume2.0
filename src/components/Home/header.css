@@ -1,0 +1,63 @@
+.landing-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .landing-background {
+    background-image: url('https://www.eetimes.com/wp-content/uploads/shutterstock_1824108005.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .landing-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set initial text color */
+    opacity: 0; /* Start with zero opacity to fade in */
+    transition: opacity 1s ease-in-out; /* Fade-in transition */
+  }
+  
+  .landing-content:hover h1 {
+    animation: colorChange 1s infinite alternate; /* Text color change on hover */
+  }
+  
+  @keyframes colorChange {
+    0% { color: #072ab6; } /* Start color */
+    100% { color: #bdbdbd; } /* End color */
+  }
+  
+  .landing-content h1 {
+    font-size: 4.5rem; /* Increase font size */
+    margin-bottom: 20px;
+    color: #f4f4f4; /* Set initial color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    transition: color 0.5s ease-in-out; /* Smooth color transition */
+  }
+  
+  .landing-content p {
+    font-size: 2rem; /* Increase font size */
+    margin-bottom: 30px;
+    font-weight: bold; /* Make the text stand out more */
+  }
+  
+  .landing-content a {
+    color: #fff; /* Set arrow color */
+    font-size: 2rem; /* Adjust font size */
+    display: block;
+  }
+  
+  /* Slide-in animation */
+  .landing-page.show-content .landing-content {
+    opacity: 1; /* Show the content */
+    transition-delay: 0.5s; /* Delay for smoother animation */
+  }
+  
