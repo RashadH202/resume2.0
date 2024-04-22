@@ -4,7 +4,10 @@ import educationData from './educationData.json'; // Import sample education dat
 
 const Education = () => {
   return (
+    <div className='edu-container'>
+        <h2>Education</h2>
     <div className="education-container">
+        
       {educationData.map((school, index) => (
         <div className="card" key={index}>
           <div className="card-content">
@@ -13,7 +16,9 @@ const Education = () => {
             <p>Completion Date: {school.completionDate}</p>
           </div>
         </div>
+        
       ))}
+    </div>
     </div>
   );
 }
