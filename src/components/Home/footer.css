@@ -1,0 +1,30 @@
+.page-footer {
+    background-color: #333; /* Footer background color */
+  }
+  
+  .page-footer .container {
+    padding: 20px 0; /* Add padding to the container */
+  }
+  
+  .page-footer .card {
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 10px; /* Add border radius to the cards */
+  }
+  
+  .page-footer .card .card-title {
+    font-size: 1.2rem; /* Card title font size */
+  }
+  
+  .page-footer .card .card-content p {
+    margin: 10px 0; /* Add margin to paragraphs */
+  }
+  
+  .page-footer .card-action a {
+    color: #fff; /* Link color */
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .page-footer .card-action a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  

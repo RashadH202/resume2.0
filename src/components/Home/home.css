@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    width: 30%;
+   
+    border-radius: 50%;
+  }
+  
+  .profile-picture img {
+    
+  }
+  
+  .job-title,
+  .current-goal {
+    width: 35%; /* Adjust the width as needed */
+    text-align: center;
+  }
+  
+  .job-title h2,
+  .current-goal h2 {
+    font-size: 1.5rem; /* Adjust font size */
+    margin: 0; /* Remove default margins */
+    color: #333; /* Set text color */
+  }
+  
