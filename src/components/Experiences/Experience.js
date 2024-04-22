@@ -1,11 +1,13 @@
 import React from 'react';
-import './Experience.css'; // Import CSS file for custom styles
+import './experience.css'; // Import CSS file for custom styles
 import experienceData from './experienceData.json'; // Import JSON data for work experience
 
 const Experience = () => {
   return (
+    <div className='exp-cont'>
+        <h2>Experience</h2>
     <div className="experience-container">
-      <h2>Experience</h2>
+      
       <div className="row">
         {experienceData.map((job, index) => (
           <div className="col s12 m6 l4" key={index}>
@@ -23,6 +25,7 @@ const Experience = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

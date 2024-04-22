@@ -1,0 +1,20 @@
+{
+    "overallSkills": [
+      { "name": "HTML", "level": 90 },
+      { "name": "CSS", "level": 80 },
+      { "name": "JavaScript", "level": 75 }
+    ],
+    "individualSkills": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Bootstrap"
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect",
+      "Google Certified Professional Cloud Architect",
+      "Microsoft Certified: Azure Solutions Architect Expert"
+    ]
+  }
+  

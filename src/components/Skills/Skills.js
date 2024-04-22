@@ -1,24 +1,9 @@
 import React from 'react';
 import './skills.css'; // Import CSS file for custom styles
+import skillsData from './skillsData.json'; // Import JSON data
 
 const Skills = () => {
-  // Sample data for overall skills
-  const overallSkills = [
-    { name: "HTML", level: 90 },
-    { name: "CSS", level: 80 },
-    { name: "JavaScript", level: 75 },
-    // Add more skills as needed
-  ];
-
-  // Sample data for individual skills
-  const individualSkills = [
-    "React",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Bootstrap",
-    // Add more skills as needed
-  ];
+  const { overallSkills, individualSkills, certifications } = skillsData;
 
   return (
     <div className="skills-container">
@@ -38,6 +23,14 @@ const Skills = () => {
         <ul>
           {individualSkills.map((skill, index) => (
             <li key={index}>{skill}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="certifications">
+        <h2>Certifications</h2>
+        <ul>
+          {certifications.map((certification, index) => (
+            <li key={index}>{certification}</li>
           ))}
         </ul>
       </div>

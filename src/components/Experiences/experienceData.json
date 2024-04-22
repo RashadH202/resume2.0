@@ -1,24 +1,51 @@
 [
     {
-      "title": "Software Engineer",
-      "company": "ABC Company",
-      "duration": "Jan 2020 - Present",
+      "title": "Cetat IT Support",
+      "company": "Washington, DC",
+      "duration": "March 2018 – December 2021",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Nulla varius scelerisque odio ac posuere.",
-        "Integer sit amet tincidunt libero."
+        "Maintained and updated class laptops running Windows operating systems to ensure student access.",
+        "Upgraded hardware components, including RAM, hard drives, and video cards, to optimize computer performance.",
+        "Deployed windows operating systems using windows server, in order to reimage computers for new classes each Cycle.",
+        "Assisted in creating programming course materials for HTML, CSS, and JavaScript.",
+        "Updated and maintained the Cetat website to ensure functionality and up-to-date content."
       ]
     },
     {
-      "title": "Web Developer",
-      "company": "XYZ Corporation",
-      "duration": "Jun 2018 - Dec 2019",
+      "title": "General Assembly Web Development Immersive",
+      "company": "Washington, DC",
+      "duration": "November 2017 – February 2018",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Nulla varius scelerisque odio ac posuere.",
-        "Integer sit amet tincidunt libero."
+        "Developed Full Stack Applications with the MVC Model using a MERN (Mongoose, Express, React, Node) Stack.",
+        "Developed Dynamic single page Front End Applications using React, and Multiple CSS Frameworks.",
+        "Created and Utilized Restful API’s using Express, mLab, and Heroku to deploy them for use.",
+        "Collaborated on Multiple Projects using GitHub, to create, manage and update projects efficiently as a team.",
+        "Developed Front-End Mockups, Wireframes, and Designs for optimal User Interface collaboratively and alone."
+      ]
+    },
+    {
+      "title": "Software Development Teaching Assistant",
+      "company": "Year Up NCR",
+      "location": "Arlington, VA",
+      "duration": "February 2014 - December 2017",
+      "description": [
+        "Taught HTML, CSS, and JavaScript to classes of 20+ students, to deliver basic understanding of Front-End Web Development skills and fundamentals.",
+        "Developed curriculum for students including assignments, lectures, hands-on, and resource materials for HTML, CSS, JavaScript, and Java.",
+        "Led study group sessions for topics such as HTML, CSS, JavaScript, Bootstrap, Java, and other frameworks, to support students in receiving a high-quality experience.",
+        "Supported a small group of students as a ‘Coach’ provided feedback, career advice, and assisted with goal setting for these individuals up to and after their graduation."
+      ]
+    },
+    {
+      "title": "System Analyst",
+      "company": "Freddie Mac",
+      "location": "McLean, VA",
+      "duration": "July 2013 – January 2014",
+      "description": [
+        "Co-Developed Advanced Excel macros and business requirements in order to support software testers, and analyst teams.",
+        "Managed and updated multiple projections, project health, and urgent updates in PowerPoint presentations weekly, empowering the project lead to execute meetings.",
+        "Presented the weekly portfolio to the team to provide updates for Project Managers and their respective teams.",
+        "Developed systems requirements within Microsoft Word defining the functional portions of the application request for DOORS Software."
       ]
     }
-    // Add more job experiences as needed
   ]
   

@@ -10,7 +10,12 @@
       "description": "Description of project 2.",
       "link": "https://example.com/project2",
       "image": "https://via.placeholder.com/300"
-    }
-   
+    },
+    {
+        "name": "Project 2",
+        "description": "Description of project 2.",
+        "link": "https://example.com/project2",
+        "image": "https://via.placeholder.com/300"
+      }
   ]
   
